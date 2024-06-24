@@ -6,9 +6,9 @@ import { auth } from '@/auth'
 import { Button, buttonVariants } from '@/components/ui/button'
 import {
   IconGitHub,
-  IconNextChat,
+  // IconNextChat,
   IconSeparator,
-  IconVercel,
+  // IconVercel,
   IconKuzco
 } from '@/components/ui/icons'
 import { UserMenu } from '@/components/user-menu'
@@ -30,7 +30,7 @@ async function UserOrLogin() {
         </>
       ) : (
         <Link href="/new" rel="nofollow">
-          <IconKuzco className="size-6 mr-2 dark:hidden" inverted />
+          <IconKuzco className="size-6 mr-2 dark:hidden" />
           <IconKuzco className="hidden size-6 mr-2 dark:block" />
         </Link>
       )}
