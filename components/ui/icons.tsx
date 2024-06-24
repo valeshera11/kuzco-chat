@@ -121,6 +121,23 @@ function IconVercel({ className, ...props }: React.ComponentProps<'svg'>) {
   )
 }
 
+function IconKuzco({ className, ...props }: React.ComponentProps<'svg'>) {
+  return (
+    <svg
+      aria-label="Kuzco logo"
+      role="img"
+      viewBox="0 0 79 92"
+      className={cn('size-4', className)}
+      {...props}
+    >
+      <path
+        d="M39.462 0L54.26 8.543L24.664 25.631L9.866 17.087L39.462 0ZM0 51.262L54.26 82.588L39.462 91.131L0.000999451 68.348L0 51.262ZM0 22.783V39.87L64.125 76.893L78.923 68.348L0 22.783ZM64.125 14.238L34.529 31.326L49.327 39.869L78.923 22.782L64.125 14.238Z"
+        fill="currentColor"
+      ></path>
+    </svg>
+  )
+}
+
 function IconGitHub({ className, ...props }: React.ComponentProps<'svg'>) {
   return (
     <svg
@@ -480,6 +497,7 @@ export {
   IconEdit,
   IconNextChat,
   IconOpenAI,
+  IconKuzco,
   IconVercel,
   IconGitHub,
   IconSeparator,

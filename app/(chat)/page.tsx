@@ -5,6 +5,8 @@ import { auth } from '@/auth'
 import { Session } from '@/lib/types'
 import { getMissingKeys } from '@/app/actions'
 
+export const maxDuration = 60
+
 export const metadata = {
   title: 'Next.js AI Chatbot'
 }
