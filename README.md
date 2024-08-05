@@ -6,7 +6,7 @@
 <p align="center">
   An open-source AI chatbot app template built with Next.js, the Vercel AI SDK, OpenAI, and Vercel KV.
 
-  Setup to work with OpenRouter and Kuzco models.
+  Setup to work with OpenRouter and Kuzco modelss.
 </p>
 
 <p align="center">
